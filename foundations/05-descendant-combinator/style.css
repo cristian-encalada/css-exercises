@@ -1,0 +1,23 @@
+/* Option 1 - Use only type selectors */
+/* div p {
+    background-color: rgb(255, 255, 0);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* Option 2 - Use only class selectors */
+/* .container .text {
+    background-color: rgb(255, 255, 0);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* Option 3 - Use both class and type selectors */
+div .text {
+    background-color: rgb(255, 255, 0);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
