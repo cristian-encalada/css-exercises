@@ -1,0 +1,19 @@
+.odd{
+    background-color: rgb(255, 182, 193); /* lightpink*/
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#even-2nd {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.change-font-size{
+    font-size: 24px;
+}
+
+#even-4th {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
+}
