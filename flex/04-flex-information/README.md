@@ -10,16 +10,15 @@ For this one you will need to edit the HTML a little bit too. We can't be making
 
 ### Self Check
 
-- All items are centered on the page (horizontally, not vertically).
-    - Yes -> body -> text-align: center;
-- The title is centered on the page.
-    - Yes
-- There is 32px between the title and the 'items.'
-    - Yes -> .content -> margin-top: 32px;
-- There is 52px between each item.
-    - Yes -> .content -> gap: 52px;
-- The items are arranged horizontally on the page.
-    - Yes -> .content -> display: flex;  justify-content: center;
-- The items are only 200px wide and the text wraps.
-    - Yes -> -item -> max-width: 200px;
-- The item text is centered.
+- [x] All items are centered on the page (horizontally, not vertically).
+    - body -> text-align: center;
+- [x] The title is centered on the page.
+- [x] There is 32px between the title and the 'items.'
+    - .content -> margin-top: 32px;
+- [x] There is 52px between each item.
+    - .content -> gap: 52px;
+- [x] The items are arranged horizontally on the page.
+    - .content -> display: flex;  justify-content: center;
+- [x] The items are only 200px wide and the text wraps.
+    - .item -> max-width: 200px;
+- [x] The item text is centered.
